@@ -26,11 +26,3 @@ class Solution {
 	}
 
 }
-
-public class Lesson1_BinaryGap {
-	public static void main(String[] args) {
-		Solution sol =  new Solution();
-		int N = 32;
-		System.out.println( sol.solution(N) );
-	}
-}
