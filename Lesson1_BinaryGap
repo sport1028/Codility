@@ -1,3 +1,5 @@
+// https://app.codility.com/demo/results/trainingE7Z6V9-D8W/
+
 class Solution {
 	public int solution(int N) {
 		String binaryString = Integer.toBinaryString(N);
