@@ -1,5 +1,7 @@
 package Codility;
 
+// https://app.codility.com/demo/results/trainingF8WMZ8-ETN/
+
 class Solution1 {
 	public int[] solution(int[] A, int K) {
 		int aLength = A.length;
@@ -16,16 +18,4 @@ class Solution1 {
 		return A;
 	}
 
-}
-
-public class Lesson2_CyclicRotation {
-	public static void main(String[] args) {
-		Solution1 sol =  new Solution1();
-		int[] A = {};
-		int K = 5;
-		int[] B = sol.solution(A,K);
-		for(int i = 0; i < A.length; i++) {
-			System.out.print(B[i]);
-		}
-	}
 }
